@@ -66,3 +66,10 @@ async function renderCountries() {
 
 renderCountries();
 
+e.Print the total population of countries using reduce function
+.then(responses=> {
+    return responses.reduce(async(acc, next) => {
+        acc.push(await(next.json()));
+        return acc;
+    }, [])
+})
