@@ -1,38 +1,38 @@
 a.Get all the countries from Asia continent /region using Filter function
 
-// fetch("https://restcountries.com/v3.1/all")
-// .then(data => data.json())
-// .then((countries) => 
-//      countries
-//     .filter((country)=>country.region == "Asia")
-//     .map((country)=>country.name.common)
-//    )
-// .then(countries => console.log(countries))
-// .catch(err=> console.log("please try after sometime!!!"));
+ fetch("https://restcountries.com/v3.1/all")
+ .then(data => data.json())
+ .then((countries) => 
+      countries
+     .filter((country)=>country.region == "Asia")
+     .map((country)=>country.name.common)
+    )
+ .then(countries => console.log(countries))
+ .catch(err=> console.log("please try after sometime!!!"));
 
 b.Get all the countries with a population of less than 2 lakhs using Filter function
 
-// fetch("https://restcountries.com/v3.1/all")
-// .then(data => data.json())
-// .then((countries) => 
-//      countries
-//     .filter((country)=>country.population < 200000)
-//     .map((country)=>country.name.common)
-//    )
-// .then(countries => console.log(countries))
-// .catch(err=> console.log("please try after sometime!!!"));
+ fetch("https://restcountries.com/v3.1/all")
+ .then(data => data.json())
+ .then((countries) => 
+      countries
+     .filter((country)=>country.population < 200000)
+     .map((country)=>country.name.common)
+    )
+ .then(countries => console.log(countries))
+ .catch(err=> console.log("please try after sometime!!!"));
 
 c.Print the country which uses US Dollars as currency.
 
-// fetch("https://restcountries.com/v3.1/all")
-// .then(data => data.json())
-// .then((countries) => 
-//      countries
-//     .filter((country)=>country.currencies.name:dollarname == "United States dollar")
-//     .map((country)=>country.name)
-//    )
-// .then(countries => console.log(countries))
-// .catch(err=> console.log("please try after sometime!!!"));
+ fetch("https://restcountries.com/v3.1/all")
+ .then(data => data.json())
+ .then((countries) => 
+      countries
+     .filter((country)=>country.currencies.name:dollarname == "United States dollar")
+     .map((country)=>country.name)
+   )
+.then(countries => console.log(countries))
+.catch(err=> console.log("please try after sometime!!!"));
 
 d.Print the following details name, capital, flag using forEach function
 
